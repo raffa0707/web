@@ -1,6 +1,6 @@
 import React from 'react'
 import MyNav from './components/navbar';
-import HeroBanner from './components/heroBanner';
+import HeroBanner from './components/HeroBanner';
 import AboutMe from './components/AboutMe';
 import ContactMe from './components/ContactMe';
 import 'flowbite';
