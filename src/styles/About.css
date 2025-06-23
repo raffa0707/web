@@ -1,0 +1,53 @@
+#about {
+  background-color: #baccd2;
+  position: relative;
+  font-size: 1.2rem;
+}
+#about > .wrapper {
+  margin: auto;
+  width: 50%;
+}
+#about > .wrapper > h3 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  color: #000000;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+#about > .wrapper > p {
+  text-align: center;
+}
+
+#about > .wrapper > h4 {
+  text-align: center;
+  font-size: 1.9rem;
+  /* margin: 0px 0px 20px 0px; */
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 5px;
+  color: #080000;
+}
+.skills {
+  text-align: center;
+}
+.skills > svg {
+  display: inline-block;
+  color: #07080a;
+  width: 50px;
+  height: auto;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.skills > svg:hover {
+  color: #a41f08;
+}
+
+@media only screen and (max-width: 1000px) {
+  #about > .wrapper {
+    width: 80%;
+  }
+}
